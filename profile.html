@@ -23,6 +23,38 @@
             color: white;
             text-shadow: 2px 2px 5px black;
         }
+
+        /* PERBAIKAN SELEKTOR DAN PENAMBAHAN BORDER BULAT */
+        .foto-profil {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid #0b19af;
+            
+            /* ATUR POSISI DI SINI */
+            margin-top: 20px; /* Jarak antara tabel navigasi dan foto profil */
+            margin-left: auto; /* Memposisikan ke tengah secara horizontal */
+            margin-right: auto; /* Memposisikan ke tengah secara horizontal */
+            display: block; /* Agar margin auto bekerja */
+        }
+
+        /* Style untuk tabel navigasi agar lebih rapi */
+        table {
+            background-color: rgba(255, 255, 255, 0.8); /* Latar belakang semi-transparan untuk tabel */
+            border-collapse: collapse; /* Menghilangkan spasi antar border cell */
+            border-radius: 10px; /* Radius sudut tabel */
+            overflow: hidden; /* Memastikan radius sudut memotong konten */
+        }
+
+        table td {
+            border: 1px solid #ccc; /* Border cell yang lebih halus */
+        }
+
+        table a {
+            text-decoration: none; /* Menghilangkan garis bawah pada link */
+            color: #0b19af;
+            font-weight: bold;
+        }
     </style>
 
 </head>
@@ -32,16 +64,21 @@
 
     <img src="https://i.pinimg.com/736x/bd/00/76/bd0076e46f7f1344e9529a6be13d38a7.jpg" class="foto-bg">
 
-                <table border="1" align="center" cellspacing="0" cellpadding="15">
-            <tr>
-                <td>
-                    <a href="index.html">Home</a></td>
-                <td>
-                    <a href="profile.html">Profile</a></td>
-                <td>
-                    <a href="contact.html">Contact</a></td>
-            </tr>
-        </table>
+    <table align="center" cellspacing="0" cellpadding="15">
+        <tr>
+            <td>
+                <a href="index.html">Home</a>
+            </td>
+            <td>
+                <a href="profile.html">Profile</a>
+            </td>
+            <td>
+                <a href="contact.html">Contact</a>
+            </td>
+        </tr>
+    </table>
+
+    <img src="https://i.pinimg.com/736x/bf/df/5c/bfdf5c8b8f85f86366d95f78ef940b46.jpg" class="foto-profil">
 
 </body>
 </html>
