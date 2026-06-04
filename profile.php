@@ -24,34 +24,30 @@
             text-shadow: 2px 2px 5px black;
         }
 
-        /* PERBAIKAN SELEKTOR DAN PENAMBAHAN BORDER BULAT */
         .foto-profil {
             width: 150px;
             height: 150px;
             border-radius: 50%;
             border: 5px solid #0b19af;
-            
-            /* ATUR POSISI DI SINI */
-            margin-top: 20px; /* Jarak antara tabel navigasi dan foto profil */
-            margin-left: auto; /* Memposisikan ke tengah secara horizontal */
-            margin-right: auto; /* Memposisikan ke tengah secara horizontal */
-            display: block; /* Agar margin auto bekerja */
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto; 
+            display: block;
         }
 
-        /* Style untuk tabel navigasi agar lebih rapi */
         table {
-            background-color: rgba(255, 255, 255, 0.8); /* Latar belakang semi-transparan untuk tabel */
-            border-collapse: collapse; /* Menghilangkan spasi antar border cell */
-            border-radius: 10px; /* Radius sudut tabel */
-            overflow: hidden; /* Memastikan radius sudut memotong konten */
+            background-color: rgba(255, 255, 255, 0.8);
+            border-collapse: collapse;
+            border-radius: 10px;
+            overflow: hidden;
         }
 
         table td {
-            border: 1px solid #ccc; /* Border cell yang lebih halus */
+            border: 1px solid #ccc;
         }
 
         table a {
-            text-decoration: none; /* Menghilangkan garis bawah pada link */
+            text-decoration: none;
             color: #0b19af;
             font-weight: bold;
         }

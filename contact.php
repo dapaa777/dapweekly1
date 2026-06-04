@@ -62,7 +62,7 @@
         <a href="https://instagram.com/daparsyd_" class="tombol">Instagram</a>
         <a href="https://www.tiktok.com/@c1gaftersx" class="tombol">Tiktok</a>
         <br>
-        <a href="index.html" style="color: white; text-decoration: none;">← Kembali ke Home</a>
+        <a href="index.html" style="color: #0b19af; text-decoration: none;">Kembali ke Home</a>
     </div>
 
 </body>

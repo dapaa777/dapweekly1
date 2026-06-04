@@ -36,7 +36,7 @@
 </head>
 <body>
 
-    <img src="https://i.pinimg.com/1200x/87/7b/b8/877bb823a490759700188c35b2b7491f.jpg" class="foto-bg">
+    <img src="https://img.freepik.com/premium-photo/black-white-abstract-geometric-pattern-with-white-gray-geometric-background_853677-127081.jpg?w=2000" class="foto-bg">
 
     <h1>- WEB PROJECT BY DAP -</h1>
 
